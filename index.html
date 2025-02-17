@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Grid</title>
+
+</head>
+
+
+
+<body>
+
+
+    <header class="contenedor__header">
+        <div class="contenedor">
+
+            <div class="grupo__fila">
+
+                <div class="titulo">
+                    <h1>Animated Icons</h1>
+                </div>
+
+                <div class="texto">
+                    <p>
+                        Hello, this is a project to demostrate the use of grid, and as a part of the project we are
+                        using lordicon for the animated icons seing belows.
+                    </p>
+                </div>
+
+                <div class="boton">
+                    <a href="#" class="btn btn__black">
+                        Learn More About Lordicon
+                    </a>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!--  -->
+    <section class="contenedor__h1">
+        <div class="contenedor">
+
+            <div class="grid__grupo">
+
+                <div class="box box__1">
+
+                    <lord-icon src="https://cdn.lordicon.com/ohcuigqh.json" trigger="hover"
+                        style="width:250px;height:250px">
+                    </lord-icon>
+
+                    <h4>
+                        Confetti
+                    </h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis quis recusandae assumenda
+                        laborum laudantium, facere, id magni totam iure accusantium unde inventore veritatis! Hic!
+                    </p>
+
+                </div>
+
+
+                <div class="box box__2">
+
+                    <lord-icon src="https://cdn.lordicon.com/xmaezqzk.json" trigger="hover"
+                        style="width:250px;height:250px">
+                    </lord-icon>
+
+                    <h4>
+                        Book
+                    </h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis quis
+                        recusandae assumenda
+                        laborum laudantium, facere, id magni totam iure accusantium unde inventore
+                        veritatis! Hic!
+                    </p>
+
+                </div>
+
+
+                <div class="box box__3">
+
+                    <lord-icon src="https://cdn.lordicon.com/jectmwqf.json" trigger="hover"
+                        style="width:250px;height:250px">
+                    </lord-icon>
+
+                    <h4>
+                        Layers
+                    </h4>
+
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, obcaecati.
+                    </p>
+
+                </div>
+
+
+                <div class="box box__4">
+
+                    <lord-icon src="https://cdn.lordicon.com/ggirntso.json" trigger="hover"
+                        style="width:250px;height:250px">
+                    </lord-icon>
+
+                    <h4>
+                        Basket trolley
+                    </h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+                        nobis quis recusandae assumenda
+                        laborum laudantium, facere, id magni totam iure accusantium unde
+                        inventore veritatis! Hic!
+                    </p>
+
+                </div>
+
+
+                <div class="box box__5">
+
+                    <lord-icon src="https://cdn.lordicon.com/fcyboqbm.json" trigger="hover"
+                        style="width:250px;height:250px">
+                    </lord-icon>
+
+                    <h4>
+                        Growth chart
+                    </h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fugit quisquam repudiandae
+                        quibusdam quo rerum doloremque eveniet nihil, modi, ipsum corporis facere recusandae ipsa odit.
+                        Ea doloremque nostrum fugit perferendis adipisci necessitatibus repellat ipsam. Culpa eveniet
+                        eaque laboriosam natus blanditiis dolore at? Culpa ad accusamus sit! Architecto assumenda,
+                        nesciunt natus tenetur rem similique et dolore.
+
+                    </p>
+
+                </div>
+
+
+                <div class="box box__6">
+
+                    <lord-icon src="https://cdn.lordicon.com/knzzcfyy.json" trigger="hover"
+                        style="width:250px;height:250px">
+                    </lord-icon>
+
+
+                    <h4>
+                        Nodding man
+                    </h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quasi!
+                    </p>
+
+                </div>
+
+
+                <div class="box box__7">
+
+                    <lord-icon src="https://cdn.lordicon.com/hcdqguwh.json" trigger="hover"
+                        style="width:250px;height:250px">
+                    </lord-icon>
+
+                    <h4>
+                        Frysztak church
+                    </h4>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nobis quis recusandae assumenda
+                        laborum laudantium, facere, id magni totam iure accusantium unde inventore veritatis! Hic!
+                    </p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- lordicon, iconos -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+
+</body>
+
+
+
+</html>
