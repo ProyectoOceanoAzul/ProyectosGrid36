@@ -214,8 +214,11 @@ div.boton a.btn__black{
     color: var(--colorEstilo54);
 }
 
-
-
+div.boton a.btn__black:hover{
+    background-color: var(--colorEstilo53);
+    color: var(--colorEstilo1);
+    transition: all 0.3s ease-in;
+}
 
 section.contenedor__h1{
     background-color: var(--colorEstilo53);
